@@ -8,7 +8,6 @@ const CART_COLLECTION = 'carts';
 const CART_DOC = 'userCart'; // You can change this to any identifier, maybe user ID if applicable
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
 const firestore = getFirestore(app);
 
 export const saveCartToFirestore = async (cart) => {
