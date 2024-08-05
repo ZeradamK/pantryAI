@@ -1,5 +1,4 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import { getFirestore, collection, setDoc, doc, getDocs, query } from 'firebase/firestore';
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -19,7 +18,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 const firestore = getFirestore(app);
 
 const getCartFromFirestore = async () => {
