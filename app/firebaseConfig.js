@@ -2,8 +2,6 @@
 import { getFirestore, doc, setDoc, getDoc } from 'firebase/firestore';
 import { app } from './firebaseConfig'; // Assuming your firebase configuration is in firebaseConfig.js
 
-const firestore = getFirestore(app);
-
 const CART_COLLECTION = 'carts';
 const CART_DOC = 'userCart'; // You can change this to any identifier, maybe user ID if applicable
 
