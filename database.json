@@ -1,0 +1,565 @@
+{
+    "groceries": [
+      {
+        "id": 1,
+        "name": "Apple",
+        "category": "Fruits",
+        "price": 0.5,
+        "unit": "each"
+      },
+      {
+        "id": 2,
+        "name": "Banana",
+        "category": "Fruits",
+        "price": 0.3,
+        "unit": "each"
+      },
+      {
+        "id": 3,
+        "name": "Orange",
+        "category": "Fruits",
+        "price": 0.6,
+        "unit": "each"
+      },
+      {
+        "id": 4,
+        "name": "Broccoli",
+        "category": "Vegetables",
+        "price": 1.2,
+        "unit": "lb"
+      },
+      {
+        "id": 5,
+        "name": "Carrot",
+        "category": "Vegetables",
+        "price": 0.7,
+        "unit": "lb"
+      },
+      {
+        "id": 6,
+        "name": "Tomato",
+        "category": "Vegetables",
+        "price": 1.0,
+        "unit": "lb"
+      },
+      {
+        "id": 7,
+        "name": "Milk",
+        "category": "Dairy",
+        "price": 2.5,
+        "unit": "gallon"
+      },
+      {
+        "id": 8,
+        "name": "Cheese",
+        "category": "Dairy",
+        "price": 3.0,
+        "unit": "lb"
+      },
+      {
+        "id": 9,
+        "name": "Yogurt",
+        "category": "Dairy",
+        "price": 0.8,
+        "unit": "each"
+      },
+      {
+        "id": 10,
+        "name": "Bread",
+        "category": "Bakery",
+        "price": 2.0,
+        "unit": "loaf"
+      },
+      {
+        "id": 11,
+        "name": "Bagel",
+        "category": "Bakery",
+        "price": 1.0,
+        "unit": "each"
+      },
+      {
+        "id": 12,
+        "name": "Croissant",
+        "category": "Bakery",
+        "price": 1.5,
+        "unit": "each"
+      },
+      {
+        "id": 13,
+        "name": "Chicken Breast",
+        "category": "Meat",
+        "price": 4.5,
+        "unit": "lb"
+      },
+      {
+        "id": 14,
+        "name": "Ground Beef",
+        "category": "Meat",
+        "price": 5.0,
+        "unit": "lb"
+      },
+      {
+        "id": 15,
+        "name": "Pork Chops",
+        "category": "Meat",
+        "price": 4.0,
+        "unit": "lb"
+      },
+      {
+        "id": 16,
+        "name": "Salmon",
+        "category": "Seafood",
+        "price": 8.0,
+        "unit": "lb"
+      },
+      {
+        "id": 17,
+        "name": "Shrimp",
+        "category": "Seafood",
+        "price": 10.0,
+        "unit": "lb"
+      },
+      {
+        "id": 18,
+        "name": "Tuna",
+        "category": "Seafood",
+        "price": 7.0,
+        "unit": "lb"
+      },
+      {
+        "id": 19,
+        "name": "Rice",
+        "category": "Grains",
+        "price": 1.0,
+        "unit": "lb"
+      },
+      {
+        "id": 20,
+        "name": "Pasta",
+        "category": "Grains",
+        "price": 1.2,
+        "unit": "lb"
+      },
+      {
+        "id": 21,
+        "name": "Oats",
+        "category": "Grains",
+        "price": 0.8,
+        "unit": "lb"
+      },
+      {
+        "id": 22,
+        "name": "Eggs",
+        "category": "Dairy",
+        "price": 2.5,
+        "unit": "dozen"
+      },
+      {
+        "id": 23,
+        "name": "Butter",
+        "category": "Dairy",
+        "price": 3.5,
+        "unit": "lb"
+      },
+      {
+        "id": 24,
+        "name": "Cereal",
+        "category": "Grains",
+        "price": 3.0,
+        "unit": "box"
+      },
+      {
+        "id": 25,
+        "name": "Juice",
+        "category": "Beverages",
+        "price": 3.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 26,
+        "name": "Soda",
+        "category": "Beverages",
+        "price": 1.5,
+        "unit": "can"
+      },
+      {
+        "id": 27,
+        "name": "Water",
+        "category": "Beverages",
+        "price": 1.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 28,
+        "name": "Coffee",
+        "category": "Beverages",
+        "price": 5.0,
+        "unit": "lb"
+      },
+      {
+        "id": 29,
+        "name": "Tea",
+        "category": "Beverages",
+        "price": 3.5,
+        "unit": "box"
+      },
+      {
+        "id": 30,
+        "name": "Potato Chips",
+        "category": "Snacks",
+        "price": 2.5,
+        "unit": "bag"
+      },
+      {
+        "id": 31,
+        "name": "Grapes",
+        "category": "Fruits",
+        "price": 2.0,
+        "unit": "lb"
+      },
+      {
+        "id": 32,
+        "name": "Blueberries",
+        "category": "Fruits",
+        "price": 3.0,
+        "unit": "pint"
+      },
+      {
+        "id": 33,
+        "name": "Strawberries",
+        "category": "Fruits",
+        "price": 2.5,
+        "unit": "lb"
+      },
+      {
+        "id": 34,
+        "name": "Spinach",
+        "category": "Vegetables",
+        "price": 1.5,
+        "unit": "lb"
+      },
+      {
+        "id": 35,
+        "name": "Lettuce",
+        "category": "Vegetables",
+        "price": 1.0,
+        "unit": "head"
+      },
+      {
+        "id": 36,
+        "name": "Cucumber",
+        "category": "Vegetables",
+        "price": 0.8,
+        "unit": "each"
+      },
+      {
+        "id": 37,
+        "name": "Bell Pepper",
+        "category": "Vegetables",
+        "price": 1.2,
+        "unit": "each"
+      },
+      {
+        "id": 38,
+        "name": "Mushrooms",
+        "category": "Vegetables",
+        "price": 2.0,
+        "unit": "lb"
+      },
+      {
+        "id": 39,
+        "name": "Onion",
+        "category": "Vegetables",
+        "price": 0.5,
+        "unit": "each"
+      },
+      {
+        "id": 40,
+        "name": "Garlic",
+        "category": "Vegetables",
+        "price": 0.3,
+        "unit": "clove"
+      },
+      {
+        "id": 41,
+        "name": "Beef Steak",
+        "category": "Meat",
+        "price": 10.0,
+        "unit": "lb"
+      },
+      {
+        "id": 42,
+        "name": "Turkey Breast",
+        "category": "Meat",
+        "price": 4.5,
+        "unit": "lb"
+      },
+      {
+        "id": 43,
+        "name": "Bacon",
+        "category": "Meat",
+        "price": 6.0,
+        "unit": "lb"
+      },
+      {
+        "id": 44,
+        "name": "Cod",
+        "category": "Seafood",
+        "price": 9.0,
+        "unit": "lb"
+      },
+      {
+        "id": 45,
+        "name": "Clams",
+        "category": "Seafood",
+        "price": 7.0,
+        "unit": "lb"
+      },
+      {
+        "id": 46,
+        "name": "Lobster",
+        "category": "Seafood",
+        "price": 15.0,
+        "unit": "lb"
+      },
+      {
+        "id": 47,
+        "name": "Quinoa",
+        "category": "Grains",
+        "price": 3.0,
+        "unit": "lb"
+      },
+      {
+        "id": 48,
+        "name": "Barley",
+        "category": "Grains",
+        "price": 2.5,
+        "unit": "lb"
+      },
+      {
+        "id": 49,
+        "name": "Flour",
+        "category": "Baking",
+        "price": 1.2,
+        "unit": "lb"
+      },
+      {
+        "id": 50,
+        "name": "Sugar",
+        "category": "Baking",
+        "price": 1.0,
+        "unit": "lb"
+      },
+      {
+        "id": 51,
+        "name": "Salt",
+        "category": "Spices",
+        "price": 0.5,
+        "unit": "lb"
+      },
+      {
+        "id": 52,
+        "name": "Pepper",
+        "category": "Spices",
+        "price": 3.0,
+        "unit": "lb"
+      },
+      {
+        "id": 53,
+        "name": "Olive Oil",
+        "category": "Cooking",
+        "price": 6.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 54,
+        "name": "Vinegar",
+        "category": "Cooking",
+        "price": 2.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 55,
+        "name": "Ketchup",
+        "category": "Condiments",
+        "price": 1.5,
+        "unit": "bottle"
+      },
+      {
+        "id": 56,
+        "name": "Mayonnaise",
+        "category": "Condiments",
+        "price": 2.5,
+        "unit": "bottle"
+      },
+      {
+        "id": 57,
+        "name": "Mustard",
+        "category": "Condiments",
+        "price": 1.5,
+        "unit": "bottle"
+      },
+      {
+        "id": 58,
+        "name": "Soy Sauce",
+        "category": "Condiments",
+        "price": 2.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 59,
+        "name": "Peanut Butter",
+        "category": "Snacks",
+        "price": 3.0,
+        "unit": "jar"
+      },
+      {
+        "id": 60,
+        "name": "Jelly",
+        "category": "Snacks",
+        "price": 2.5,
+        "unit": "jar"
+      },
+      {
+        "id": 61,
+        "name": "Almonds",
+        "category": "Snacks",
+        "price": 8.0,
+        "unit": "lb"
+      },
+      {
+        "id": 62,
+        "name": "Cashews",
+        "category": "Snacks",
+        "price": 9.0,
+        "unit": "lb"
+      },
+      {
+        "id": 63,
+        "name": "Walnuts",
+        "category": "Snacks",
+        "price": 10.0,
+        "unit": "lb"
+      },
+      {
+        "id": 64,
+        "name": "Raisins",
+        "category": "Snacks",
+        "price": 3.0,
+        "unit": "lb"
+      },
+      {
+        "id": 65,
+        "name": "Popcorn",
+        "category": "Snacks",
+        "price": 2.0,
+        "unit": "bag"
+      },
+      {
+        "id": 66,
+        "name": "Chocolate Bar",
+        "category": "Snacks",
+        "price": 1.5,
+        "unit": "each"
+      },
+      {
+        "id": 67,
+        "name": "Ice Cream",
+        "category": "Frozen",
+        "price": 4.0,
+        "unit": "pint"
+      },
+      {
+        "id": 68,
+        "name": "Frozen Pizza",
+        "category": "Frozen",
+        "price": 5.0,
+        "unit": "each"
+      },
+      {
+        "id": 69,
+        "name": "Frozen Vegetables",
+        "category": "Frozen",
+        "price": 2.5,
+        "unit": "bag"
+      },
+      {
+        "id": 70,
+        "name": "Frozen Berries",
+        "category": "Frozen",
+        "price": 3.5,
+        "unit": "bag"
+      },
+      {
+        "id": 71,
+        "name": "Dish Soap",
+        "category": "Household",
+        "price": 2.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 72,
+        "name": "Laundry Detergent",
+        "category": "Household",
+        "price": 10.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 73,
+        "name": "Paper Towels",
+        "category": "Household",
+        "price": 1.0,
+        "unit": "roll"
+      },
+      {
+        "id": 74,
+        "name": "Toilet Paper",
+        "category": "Household",
+        "price": 0.5,
+        "unit": "roll"
+      },
+      {
+        "id": 75,
+        "name": "Shampoo",
+        "category": "Personal Care",
+        "price": 4.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 76,
+        "name": "Conditioner",
+        "category": "Personal Care",
+        "price": 4.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 77,
+        "name": "Toothpaste",
+        "category": "Personal Care",
+        "price": 3.0,
+        "unit": "tube"
+      },
+      {
+        "id": 78,
+        "name": "Deodorant",
+        "category": "Personal Care",
+        "price": 3.0,
+        "unit": "stick"
+      },
+      {
+        "id": 79,
+        "name": "Body Lotion",
+        "category": "Personal Care",
+        "price": 5.0,
+        "unit": "bottle"
+      },
+      {
+        "id": 80,
+        "name": "Hand Soap",
+        "category": "Personal Care",
+        "price": 2.0,
+        "unit": "bottle"
+      }
+    ]
+  }
+  

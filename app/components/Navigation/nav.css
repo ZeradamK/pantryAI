@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#online{
+    margin-right: 15px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* Text shadow for glow effect */
+}
+.avatar-img{
+    background: rgba(84, 84, 84, 0);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    padding: 5px;
+    width: 70px;
+    height: auto;
+}
+#linkdin-git{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+
+}
+#links {
+    cursor: pointer;
+}
+#FaCircle{
+    text-shadow: 0 0 8px rgb(255, 255, 255); /* Text shadow for glow effect */
+}
+/* Basic styles for layout */
+.toggler-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Dashed border */
+    padding: 3px;
+}
+.tab-link{
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Dashed border */
+    font-family: 'Montserrat', sans-serif
+}
+.cart, .home{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Dashed border */
+    padding-right: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-4 span {
+    z-index: 20;
+}
+
+.cart:after, .home:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+}
+
+.cart:hover:after, .home:hover:after {
+    left: 120%;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
+.flex-row {
+    flex-direction: row;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.tab-button {
+    position: relative;
+    cursor: pointer;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    overflow: hidden;
+    border-width: 0;
+    border-color: white;
+    border-radius: 40px;
+
+
+}
+.icon{
+    font-size: 30px;
+    margin-bottom: 4px;
+    padding-top: 5px;
+}
+.cart-icon{
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.tab-button .icon {
+    font-size: 20px;
+}
+.slide{
+    height: 3px;
+}
+.tab-button .slide {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(
+            to top,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.31)
+    ); /* Gradient background from bottom to top */
+    transform: translateY(100%);
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Luminous effect */
+}
+.tab-button:hover .slide {
+    transform: translateY(0); /* Slide up on hover */
+}
+
+.tab-button.active .slide {
+    transform: translateY(0);
+
+}
+
+.content-container {
+
+    width: 100%;
+}
+
+.tab-content {
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.tab-content.active {
+    display: block;
+    opacity: 1;
+}
+
+.tab-content:not(.active) {
+    opacity: 0;
+}
+.tab-button:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* Text shadow for glow effect */
+    transform: scale(1.5); /* Scale the overlay to create a shine effect */
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.icon:hover, .projects:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* Text shadow for glow effect */
+    transition: color 0.8s ease-in-out; /* 0.3 seconds delay */
+
+}
+
+.avatar-area, .avatar-img {
+    display: none;
+}
+@media (max-width: 700px) {
+    #home-tab {
+        display: none;
+    }
+
+    .avatar-area, .avatar-img {
+        display: flex;
+    }
+}
+@media(min-width: 701px) {
+    .avatar-img, .avatar-area {
+        display: none;
+        flex: 0;
+    }
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+.fa-at {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border color */
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px; /* Padding around the icon */
+    width: 80px; /* Adjust width for circular shape */
+    height: 80px; /* Adjust height for circular shape */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.fa-times {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border color */
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px; /* Padding around the icon */
+    width: 80px; /* Adjust width for circular shape */
+    height: 80px; /* Adjust height for circular shape */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    background-color: rgba(114, 114, 114, 0.09);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Border color */
+    padding: 5px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(124, 124, 124, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    background-color: rgba(114, 114, 114, 0.09);
+    border-radius: 25px;
+    padding: 12px 16px;
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    transition-duration: 0.4s;
+    transition: ease;
+    background-color: rgba(51, 51, 51, 0.69);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.81); /* Text shadow for glow effect */
+
+}
+
+.dropdown.active .dropdown-content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition-duration: 0.3s;
+}
+.dropdown.active .fa-at {
+    transform: rotate(45deg);
+    background: rgba(255, 255, 255, 0.2); /* Optional background change */
+}
+.dropdown .fa-times {
+    font-size: 20px;
+}
+
+/* Media query for responsive icons */
+@media (max-width: 600px) {
+    .icon-links, .github-icon, .linkedin-icon {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+    #Home-Projects-Tab{
+        justify-self: end;
+    }
+}
+
+@media (min-width: 601px) {
+    .dropdown {
+        display: none;
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes rotate-back {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/* Rotate animation class when @ is active */
+.rotate {
+    animation: rotate 0.3s ease forwards;
+}
+
+/* Rotate back animation class when X is active */
+.rotate-back {
+    animation: rotate-back 0.3s ease forwards;
+}
+
+.dropdown-toggle-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: 100; /* Lighter font weight */
+    color: rgba(255, 255, 255, 0.7); /* Lighter color */
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown.active .dropdown-toggle-text {
+    animation: rotate 0.3s ease forwards;
+}
+
+.dropdown.active .dropdown-toggle-text.rotate-back {
+    animation: rotate-back 0.3s ease forwards;
+}
+
+.dropdown.active .dropdown-toggle-text {
+    color: rgba(255, 255, 255, 0.9); /* Lighter color when active */
+}
+
+.dropdown-content a span {
+    margin-left: 8px; /* Space between text and arrow */
+}
+
+.dropdown-content a .arrow {
+    font-size: 16px; /* Adjust size as needed */
+
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px; /* Adjust this value to control the height of the overlay */
+    background: radial-gradient(ellipse 60% 60% at 50% -10%, rgba(23, 23, 23, 1), rgba(23, 23, 23, 0));
+    z-index: 1; /* Ensure this is below the navbar's z-index */
+    pointer-events: none; /* Allow clicks to pass through the overlay */
+}

@@ -1,0 +1,15 @@
+.groceries-main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.remove-button, .add-button{
+    background-color: white;
+    transition: 0.4s ease-in-out;
+    color: black;
+    padding: 3px;
+    border: none;
+    border-radius: 50%;
+}
+.remove-button:hover, .add-button:hover{
+    background-color:  #849374;
+}

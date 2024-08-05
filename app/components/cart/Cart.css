@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.cart {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+.your-cart{
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.cart-text{
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.cart-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.empty-cart {
+    font-size: 18px;
+    color: #777;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.item-name {
+    font-size: 18px;
+    color: #333;
+}
+
+.item-quantity {
+    font-size: 18px;
+    color: #666;
+}
